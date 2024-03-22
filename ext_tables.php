@@ -16,10 +16,6 @@ call_user_func(
     function () {
         ExtensionManagementUtility::addPageTSConfig('<INCLUDE_TYPOSCRIPT: source="FILE:EXT:' . SettingsUtility::EXTENSION_KEY . '/Configuration/TSconfig/ContentElementWizard.typoscript">');
 
-        ExtensionManagementUtility::allowTableOnStandardPages('tx_mindshapecookieconsent_domain_model_configuration');
-        ExtensionManagementUtility::allowTableOnStandardPages('tx_mindshapecookieconsent_domain_model_cookiecategory');
-        ExtensionManagementUtility::allowTableOnStandardPages('tx_mindshapecookieconsent_domain_model_cookieoption');
-
         /** @var \TYPO3\CMS\Core\Imaging\IconRegistry $iconRegistry */
         $iconRegistry = GeneralUtility::makeInstance(IconRegistry::class);
 

@@ -20,6 +20,9 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+        ],
     ],
     'types' => [
         '1' => ['showitem' => 'label, identifier, info, cookie_options'],

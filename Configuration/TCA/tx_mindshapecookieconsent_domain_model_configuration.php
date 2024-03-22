@@ -19,6 +19,9 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+        ],
     ],
     'types' => [
         '1' => ['showitem' => 'hidden, sys_language_uid, site, enable_statistic, header, imprint, datapolicy, hint, necessary_cookies_info, necessary_cookie_options, cookie_categories, --palette--;LLL:EXT:mindshape_cookie_consent/Resources/Private/Language/locallang.xlf:tca.configuration.palettes.labels;labels'],

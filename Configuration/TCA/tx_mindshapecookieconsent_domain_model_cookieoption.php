@@ -19,6 +19,9 @@ return [
         'enablecolumns' => [
             'disabled' => 'hidden',
         ],
+        'security' => [
+            'ignorePageTypeRestriction' => true,
+        ],
     ],
     'types' => [
         '1' => ['showitem' => 'label, identifier, provider, purpose, cookie_name, cookie_duration, replacement_label, info'],
